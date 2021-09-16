@@ -1,19 +1,29 @@
 # HardHat Project Template
 
-Dependency installed:
+## Dependency installed:
 
 - openzeppelin
 - docgen
 - dotenv
 - prettier & eslint
+- hardhat-gas-reporter
+- hardhat-contract-sizer
 
-File template:
+## Config for networks
+
+- BSC (mainnet & testnet)
+- Polygon (mainnet & testnet)
+
+## File template:
 
 - Contract.sol (smart contract intro)
 - Contract-test.js (tests syntax initiated)
 - Deployment Scripts
 - Post deployment scripts
 
-To do:
+## To do:
 
-- create a .env file with confidencial informations
+Create a `.env` with:
+
+- INFURA_PROJECT_ID
+- PRIVATE_KEY
