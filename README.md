@@ -1,8 +1,12 @@
 # HardHat Project Template
 
+## Incoming
+
+- exemple for upgradable contract tests and deployment
+
 ## Dependency installed:
 
-- openzeppelin
+- openzeppelin (with upgradable contracts and pluggins)
 - docgen
 - dotenv
 - prettier & eslint
