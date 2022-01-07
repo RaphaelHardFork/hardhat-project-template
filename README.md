@@ -31,3 +31,18 @@ Create a `.env` with:
 
 - INFURA_PROJECT_ID
 - PRIVATE_KEY
+
+## Node 17 error
+
+Run this command in case of this error:
+
+```
+error:03000086:digital envelope routines::initialization error
+```
+
+In the terminal:
+
+```
+export NODE_OPTIONS=--openssl-legacy-provider
+
+```
