@@ -3,7 +3,7 @@ const { ethers } = require('hardhat')
 const hre = require('hardhat')
 const { readFile } = require('fs/promises')
 
-const DEPLOYED_CONTRACT_NAME = 'DeployedContract'
+const DEPLOYED_CONTRACT_NAME = 'Contract'
 
 const main = async () => {
   const CONTRACTS_DEPLOYED = JSON.parse(
@@ -18,7 +18,7 @@ const main = async () => {
 
   // post deployment script
   try {
-    const tx = await contract.connect(deployer).action()
+    const tx = await contract.connect(deployer).action() // any method
     await tx.wait()
     console.log(`Contracts interaction (action): ${deployer.address} did...`)
   } catch (e) {
