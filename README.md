@@ -1,9 +1,5 @@
 # HardHat Project Template
 
-## Incoming
-
-- exemple for upgradable contract tests and deployment
-
 ## Dependency installed:
 
 - openzeppelin (with upgradable contracts and pluggins)
@@ -12,6 +8,7 @@
 - prettier & eslint
 - hardhat-gas-reporter
 - hardhat-contract-sizer
+- metamask/eth-sig-util
 
 ## Config for networks
 
@@ -20,17 +17,20 @@
 
 ## File template:
 
-- Contract.sol (smart contract intro)
+- Contract.sol (Exemple of ERC20)
 - Contract-test.js (tests syntax initiated)
 - Deployment Scripts
 - Post deployment scripts
+- UpgradeableContract.sol (Exemple of ERC20Upgradeable, using UUPS)
+- Deploy & Upgrade script using Upgrades-Pluggin from OpenZeppelin
 
 ## To do:
 
 Create a `.env` with:
 
-- INFURA_PROJECT_ID
 - PRIVATE_KEY
+- INFURA_PROJECT_ID
+- ETHERSCAN_KEY
 
 ## Node 17 error
 
